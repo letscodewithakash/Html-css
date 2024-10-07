@@ -136,7 +136,7 @@ By providing the file path relative to the location of the current web page file
 
 
 <center>
-    <h1>Video and Audio</h1>
+    <h1>Forms</h1>
 </center>
 
 <!-- <table border="2" cellpadding="20" cellspacing="20">
@@ -229,17 +229,138 @@ By providing the file path relative to the location of the current web page file
 
 
  <!-- Audio -->
-<audio controls >
+<!-- <audio controls >
     <source src="audio.wav">
-</audio>
+</audio> -->
 
 
 <!-- video -->
-<video width="450" height="250" 
+<!-- <video width="450" height="250" 
 controls preload="auto">
   <source src="https://media.geeksforgeeks.org/wp-content
 /uploads/20190616234019/Canvas.move_.mp4" 
-          type="video/mp4">
+          type="video/mp4"> -->
+
+          <center><h1>Inputs</h1></center>
+          <form action="message.html">
+            TEXT: <input type="text">
+            <br>
+            Password: <input type="password">
+            <br>
+            <input type="submit">
+            <br>
+            reset:<input type="reset">
+            <br><br>
+            a: <input type="radio" name="radio">
+            b: <input type="radio" name="radio">
+            c: <input type="radio" name="radio">
+            <br><br>
+            a: <input type="checkbox" name="checkbox">
+            b: <input type="checkbox" name="checkbox">
+            c: <input type="checkbox" name="checkbox">
+            <br>
+            <br>
+            Email <input type="email" >
+            <br><br>
+            Number <input type="number">
+            <br><br>
+            date: <input type="month" min="2022-03-21" max="2024-10-05">
+            <br><br>
+            time <input type="time">
+
+            <br><br>
+            <input type="file" accept="video/mp4">
+          </form>
+         
+<!-- <center>
+
+
+    <form action="message.html" method="get">
+        <label for="name">Name:</label>
+        <input type="text" id="name" placeholder="Enter your name">
+        <br>
+        <br>
+        <label for="category">Select category</label>
+        <select name="form" id="category">
+         <option value="0">option 1</option>
+         <option value="1">option 2</option>
+         <option value="2">option 3</option>
+        </select>
+        <br><br>
+        <textarea name="form" rows="5" cols="50" placeholder="Enter Something"></textarea>
+        <br><br>
+
+    
+      
+        <fieldset>
+            <legend>User Form</legend>
+            <label for="name">Name:</label>
+            <input type="text" id="name" placeholder="Enter your name">
+            <br>
+            <br>
+            <label for="category">Select category</label>
+            <select name="form" id="category">
+             <option value="0">option 1</option>
+             <option value="1">option 2</option>
+             <option value="2">option 3</option>
+            </select>
+            <br><br>
+        </fieldset>
+
+        <br>
+  
+
+
+        <label for="cars">Cars</label>
+        <input list="car" id="cars">
+
+        <datalist id="car">
+            <option value="bmw" />
+            <option value="audi" />
+            <option value="swift" />
+
+        </datalist>
+
+<br><br>
+        Select Language<select>
+
+    <optgroup label="programming language">
+<option value="">c++</option>
+<option value="">Java</option>
+<option value="">Python</option>
+    </optgroup>
+    <optgroup label="Scription language">
+        <option value="">Javascript</option>
+        <option value="">PHP</option>
+        <option value="">Shell</option>
+    </optgroup>
+        </select>
+     
+  
+      <br>
+        <br>
+      
+
+        <br><br>
+        <button>Sumit</button>
+        <button type="reset">Cancel</button>
+    </form>
+
+
+    <form oninput="add.value=Number(a.value)+Number(b.value)
+    ">
+   <input type="number" name="a">
+   <input type="number" name="b">
+<br>
+   Result  <output name="add"></output>
+
+    </form>
+</center> -->
+
+
+<br>
+
+
 
 </body>
 </html>
