@@ -1,0 +1,10 @@
+/* External Styling */
+#css{
+    text-align: center;
+    color: aqua;
+    background-color: black;
+    font-size: 60px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   /* box-shadow: 20px 10px 20px black; */
+  filter:drop-shadow(20px 10px 20px black);
+      }
