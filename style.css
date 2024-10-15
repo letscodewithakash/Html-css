@@ -1,10 +1,60 @@
 /* External Styling */
-#css{
+/* #css{
     text-align: center;
     color: aqua;
     background-color: black;
     font-size: 60px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-   /* box-shadow: 20px 10px 20px black; */
   filter:drop-shadow(20px 10px 20px black);
-      }
+      } */
+*{
+    color: white;
+    background-color: black;
+}
+h1{
+   color:red; 
+   background-color: black;
+   text-align: center;
+}
+
+p{
+    color:green; 
+    background-color: black;
+    text-align: center;
+ }
+
+ #heading{
+    color: blue;
+ }
+
+ [title='age']{
+color: aqua;
+ }
+
+ [title='name']{
+    color: rgb(255, 0, 204);
+     }
+
+.pseudo:hover{
+    cursor: pointer;
+    color: blueviolet;
+   padding-top: 20px;
+   transition: 2s;
+}
+
+
+div p{
+    color:blue;
+
+}
+
+section p{
+color: beige;
+}
+
+#unique::first-line{
+color: red;
+}
+#unique::first-letter{
+    color: aqua;
+    }
