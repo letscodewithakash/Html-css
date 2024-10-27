@@ -9,12 +9,15 @@
       } */
 *{
     color: white;
-    background-color: black;
+    background-color: #000000;
 }
 h1{
-   color:red; 
+   color:hsla(0,100%,50%,1); 
    background-color: black;
    text-align: center;
+
+   border: 2px inset whitesmoke;
+   border-left-color:red ;
 }
 
 p{
